@@ -1,0 +1,226 @@
+body {
+  font-family: avenir;
+  background-color: #fff;
+}
+
+.borderBoxRed {
+	border: 2px solid red;
+	width: 50%;
+}
+
+.borderBoxGreen {
+	border: 2px solid green;
+
+}
+
+.borderBoxOrange {
+	border: 2px solid orange;
+}
+
+.borderBoxBlue {
+	border: 2px solid blue;
+	width: 50%;
+}
+
+.imgToRepPlayers {
+  max-width:100%;
+  /*max-height:100%;*/
+
+}
+
+.heightForPanel {
+  height: 220px;
+
+
+}
+
+.textColors {
+  color: #53bb74;
+}
+
+#playerOneImg {
+  background-image: url("../images/einstein-png-25.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#wolframAlphaImg {
+  background-image: url("../images/wolfram-alpha2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+blockquote {
+	float: left;
+}
+
+#answersHere a {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+li {
+  list-style-type: none;
+}
+
+.positionBtn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+
+.styleBtn {
+  width: 60%;
+  text-align: center;
+  white-space: normal;
+
+}
+
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+.wrongAnswer {
+  border: 5px solid red;
+  animation: blinker 2s linear;
+  background-color: red;
+
+}
+
+.wrongAnswer:active {
+  border: 5px solid red;
+  animation: blinker 2s linear;
+  background-color: red;
+
+}
+
+.wrongAnswer:hover {
+  border: 5px solid red;
+  animation: blinker 2s linear;
+  background-color: red;
+
+}
+
+
+
+.rightAnswer {
+  border: 5px solid green;
+  animation: blinker 2s linear;
+  background-color: green;
+
+}
+
+.rightAnswer:active {
+  border: 5px solid green;
+  animation: blinker 2s linear;
+  background-color: green;
+
+}
+
+.rightAnswer:hover {
+  border: 5px solid green;
+  animation: blinker 2s linear;
+  background-color: green;
+
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+
+.answersDiv {
+  text-align:center;
+
+}
+
+.alignText {
+  text-align: center;
+  
+}
+
+
+.timerStyle {
+  border: 2px solid green;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.countdown-label {
+  color: #65584c;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 2px;
+  padding: 10px;
+
+}
+#countdown{
+  box-shadow: 0 1px 2px 0 rgba(1, 1, 1, 0.4);
+  width: 240px;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+
+}
+
+#countdown #tiles{
+  color: #fff;
+  text-shadow: 1px 1px 0px #ccc;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  font-size: 48px;
+  font-weight: thin;
+  display: block;
+    
+}
+
+.colorFull {
+  background: #53bb74;
+}
+.colorHalf {
+  background: #ebc85d;
+}
+.colorEmpty {
+  background: #e5554e;
+}
+
+
+
